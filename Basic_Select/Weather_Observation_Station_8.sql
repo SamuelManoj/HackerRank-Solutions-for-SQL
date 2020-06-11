@@ -1,0 +1,3 @@
+SELECT DISTINCT CITY FROM STATION
+WHERE CITY REGEXP '^[a,e,i,o,u]' AND
+RIGHT(CITY,1) IN ('a','e','i','o','u');
